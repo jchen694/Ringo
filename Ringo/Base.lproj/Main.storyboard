@@ -27,6 +27,7 @@
                                 <state key="normal" title="Boop"/>
                                 <connections>
                                     <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTg-2H-eVZ"/>
+                                    <segue destination="xAx-0d-OD7" kind="show" id="E0W-ko-aeF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,6 +36,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--ButtonView-->
+        <scene sceneID="52Z-Iy-mBA">
+            <objects>
+                <viewController id="xAx-0d-OD7" userLabel="ButtonView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8l-g4-t9g"/>
+                        <viewControllerLayoutGuide type="bottom" id="apz-SS-y0M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nVl-Ab-Zjy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E4q-FL-2fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="114"/>
         </scene>
     </scenes>
 </document>

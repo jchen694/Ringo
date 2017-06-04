@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPress(_ sender: UIButton) {
         print("Rishav Vacuum Dutta")
-        let vc = BoardViewController() as UIViewController
-        showDetailViewController(vc, sender: UIButton())
+        //  showDetailViewController(BoardViewController(), sender: UIButton())
         
     }
     
