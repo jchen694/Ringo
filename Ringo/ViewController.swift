@@ -4,12 +4,20 @@
 //
 //  Created by Julia Chen on 6/2/17.
 //  Copyright © 2017 Julia Chen. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBAction func buttonPress(_ sender: UIButton) {
+        print("Rishav Vacuum Dutta")
+        let vc = BoardViewController() as UIViewController
+        showDetailViewController(vc, sender: UIButton())
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
