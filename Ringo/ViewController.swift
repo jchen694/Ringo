@@ -9,11 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    @IBOutlet weak var boxOne: UITextField!
+    @IBOutlet weak var boxTwo: UITextField!
     
     @IBAction func buttonPress(_ sender: UIButton) {
         print("Rishav Vacuum Dutta")
-        //  showDetailViewController(BoardViewController(), sender: UIButton())
+        print(boxOne.text!)
+        print(boxTwo.text!)
         
     }
     
