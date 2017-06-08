@@ -34,6 +34,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var box23: UITextField!
     @IBOutlet weak var box24: UITextField!
     @IBOutlet weak var box25: UITextField!
+    
+    @IBOutlet var collOfBox: Array<UITextField>?
         
     @IBAction func buttonPress(_ sender: UIButton) {
         print("Rishav Vacuum Dutta")
@@ -56,6 +58,35 @@ class ViewController: UIViewController {
         print("Hi")
         let secondVC = segue.destination as! BoardViewController
         secondVC.one = boxOne.text!
+        secondVC.two = boxTwo.text!
+        secondVC.three = boxThr.text!
+        secondVC.four = boxFou.text!
+        secondVC.five = boxFiv.text!
+        secondVC.six = boxSix.text!
+        secondVC.seven = boxSev.text!
+        secondVC.eight = boxEig.text!
+        secondVC.nine = boxNin.text!
+        secondVC.ten = boxTen.text!
+        secondVC.eleven = boxEle.text!
+        secondVC.twelve = boxTwe.text!
+        secondVC.thirteen = box13.text!
+        secondVC.fourteen = box14.text!
+        secondVC.fifteen = box15.text!
+        secondVC.sixteen = box16.text!
+        secondVC.seventeen = box17.text!
+        secondVC.eighteen = box18.text!
+        secondVC.nineteen = box19.text!
+        secondVC.twenty = box20.text!
+        secondVC.twentyone = box21.text!
+        secondVC.twentytwo = box22.text!
+        secondVC.twentythree = box23.text!
+        secondVC.twentyfour = box24.text!
+        secondVC.twentyfive = box25.text!
+        
+        //working on this shit later to make it look nicer
+//        for num in 0...24 {
+//             = collOfBox[num]
+//        }
         
     }
     

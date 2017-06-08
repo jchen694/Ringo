@@ -142,6 +142,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="owA-OV-7aT">
+                                <rect key="frame" x="118" y="349" width="36" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uUo-r9-TM9">
                                 <rect key="frame" x="171" y="349" width="36" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -198,13 +205,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="owA-OV-7aT">
-                                <rect key="frame" x="118" y="349" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -231,9 +231,34 @@
                         <outlet property="boxSev" destination="Ctx-fZ-xe3" id="reH-nL-A67"/>
                         <outlet property="boxSix" destination="C92-QE-a1a" id="cmS-PT-9rU"/>
                         <outlet property="boxTen" destination="DdP-a8-gPm" id="exr-iS-dTO"/>
-                        <outlet property="boxThree" destination="oOu-rc-fBY" id="Rma-Y3-EkL"/>
+                        <outlet property="boxThr" destination="oOu-rc-fBY" id="ggh-r5-6Xm"/>
                         <outlet property="boxTwe" destination="5Ot-7I-tam" id="XwH-Gq-771"/>
                         <outlet property="boxTwo" destination="8bG-RA-dMe" id="duy-RY-vSB"/>
+                        <outletCollection property="collOfBox" destination="5C4-YY-H96" collectionClass="NSMutableArray" id="2u0-ps-Bdc"/>
+                        <outletCollection property="collOfBox" destination="8bG-RA-dMe" collectionClass="NSMutableArray" id="1Nx-Nn-BwU"/>
+                        <outletCollection property="collOfBox" destination="oOu-rc-fBY" collectionClass="NSMutableArray" id="bQP-av-oRf"/>
+                        <outletCollection property="collOfBox" destination="eXj-0x-gL5" collectionClass="NSMutableArray" id="eph-Hj-clN"/>
+                        <outletCollection property="collOfBox" destination="2N7-mc-B6Q" collectionClass="NSMutableArray" id="Dqz-YP-ZuU"/>
+                        <outletCollection property="collOfBox" destination="C92-QE-a1a" collectionClass="NSMutableArray" id="oRE-mk-aeE"/>
+                        <outletCollection property="collOfBox" destination="Ctx-fZ-xe3" collectionClass="NSMutableArray" id="dgP-QD-zrc"/>
+                        <outletCollection property="collOfBox" destination="wmH-Ph-eC2" collectionClass="NSMutableArray" id="OLb-B3-uTr"/>
+                        <outletCollection property="collOfBox" destination="4RL-2E-DDU" collectionClass="NSMutableArray" id="ITd-gY-Ml9"/>
+                        <outletCollection property="collOfBox" destination="DdP-a8-gPm" collectionClass="NSMutableArray" id="2Zr-BZ-1bp"/>
+                        <outletCollection property="collOfBox" destination="NaO-Ij-8OV" collectionClass="NSMutableArray" id="Uhx-na-kxH"/>
+                        <outletCollection property="collOfBox" destination="5Ot-7I-tam" collectionClass="NSMutableArray" id="O7g-C3-Xb4"/>
+                        <outletCollection property="collOfBox" destination="GA5-wG-lZN" collectionClass="NSMutableArray" id="liU-Hx-3Dc"/>
+                        <outletCollection property="collOfBox" destination="PyM-zy-NNy" collectionClass="NSMutableArray" id="dbR-vj-xfU"/>
+                        <outletCollection property="collOfBox" destination="umK-7t-XOL" collectionClass="NSMutableArray" id="SOq-3M-gmV"/>
+                        <outletCollection property="collOfBox" destination="tqW-ZQ-ELQ" collectionClass="NSMutableArray" id="dlt-S7-Iwf"/>
+                        <outletCollection property="collOfBox" destination="owA-OV-7aT" collectionClass="NSMutableArray" id="hIE-q3-45N"/>
+                        <outletCollection property="collOfBox" destination="uUo-r9-TM9" collectionClass="NSMutableArray" id="zIe-1V-sAF"/>
+                        <outletCollection property="collOfBox" destination="IHM-Te-rjW" collectionClass="NSMutableArray" id="lQp-Ff-Vgt"/>
+                        <outletCollection property="collOfBox" destination="85b-WY-GlN" collectionClass="NSMutableArray" id="SSc-rk-q7I"/>
+                        <outletCollection property="collOfBox" destination="mMS-fS-yd2" collectionClass="NSMutableArray" id="Lld-ph-hpw"/>
+                        <outletCollection property="collOfBox" destination="pZG-7C-mGd" collectionClass="NSMutableArray" id="xhF-EO-Dq5"/>
+                        <outletCollection property="collOfBox" destination="BnC-Mr-Wfs" collectionClass="NSMutableArray" id="ERS-T6-IrE"/>
+                        <outletCollection property="collOfBox" destination="diQ-Zk-OeA" collectionClass="NSMutableArray" id="Zbb-Zd-E7R"/>
+                        <outletCollection property="collOfBox" destination="8uo-XM-Q1W" collectionClass="NSMutableArray" id="CW4-Zb-D0V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -252,136 +277,196 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEI-6x-Pnc">
+                            <button opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GEI-6x-Pnc">
                                 <rect key="frame" x="16" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="4zd-L7-tgS"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-Sa-bQ5">
-                                <rect key="frame" x="160" y="140" width="54" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
-                            </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y8-yg-KJX">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Y8-yg-KJX">
                                 <rect key="frame" x="87" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOa-MO-Aae">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-Sa-bQ5">
+                                <rect key="frame" x="160" y="140" width="54" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LOa-MO-Aae">
                                 <rect key="frame" x="232" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHg-Ym-4bs">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dHg-Ym-4bs">
                                 <rect key="frame" x="305" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jET-WS-hxY">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jET-WS-hxY" userLabel="Butt Six">
                                 <rect key="frame" x="16" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-dj-j88">
-                                <rect key="frame" x="160" y="243" width="54" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
-                            </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pf-4e-zUy">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Pf-4e-zUy">
                                 <rect key="frame" x="87" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91n-bk-a6S">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-dj-j88">
+                                <rect key="frame" x="160" y="243" width="54" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="91n-bk-a6S">
                                 <rect key="frame" x="232" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obe-V3-8a5">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="obe-V3-8a5">
                                 <rect key="frame" x="305" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phZ-R7-qUl">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="phZ-R7-qUl">
                                 <rect key="frame" x="16" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rq6-2P-yXd">
-                                <rect key="frame" x="160" y="346" width="54" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
-                            </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt1-qG-3E7">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wt1-qG-3E7">
                                 <rect key="frame" x="87" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooV-XT-n7d">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Rq6-2P-yXd">
+                                <rect key="frame" x="160" y="346" width="54" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ooV-XT-n7d">
                                 <rect key="frame" x="232" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsP-Uh-Sd9">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fsP-Uh-Sd9">
                                 <rect key="frame" x="305" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVZ-pE-g2J">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="IVZ-pE-g2J">
                                 <rect key="frame" x="16" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EV-Xe-Rt2">
-                                <rect key="frame" x="160" y="449" width="54" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
-                            </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-tp-byz">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-tp-byz">
                                 <rect key="frame" x="87" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-TO-7Op">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3EV-Xe-Rt2">
+                                <rect key="frame" x="160" y="449" width="54" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-TO-7Op">
                                 <rect key="frame" x="232" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8r-ZG-ibv">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="K8r-ZG-ibv">
                                 <rect key="frame" x="305" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkp-sI-y1M">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tkp-sI-y1M">
                                 <rect key="frame" x="16" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mry-xt-P9F">
-                                <rect key="frame" x="160" y="552" width="54" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
-                            </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUs-Dn-zn5">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tUs-Dn-zn5">
                                 <rect key="frame" x="87" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrb-PO-0d7">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mry-xt-P9F">
+                                <rect key="frame" x="160" y="552" width="54" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vrb-PO-0d7">
                                 <rect key="frame" x="232" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xk-2D-1F6">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Xk-2D-1F6">
                                 <rect key="frame" x="305" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="FalseVacuum.PNG"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="RINGO!" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-6p-hq4">
+                                <rect key="frame" x="92" y="39" width="191" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.98637946883154592" green="0.28814213164464131" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="butt13" destination="Rq6-2P-yXd" id="LCm-FH-bnp"/>
+                        <outlet property="butt14" destination="ooV-XT-n7d" id="Sx5-Ju-3Q4"/>
+                        <outlet property="butt15" destination="fsP-Uh-Sd9" id="Ksv-jv-Rna"/>
+                        <outlet property="butt16" destination="IVZ-pE-g2J" id="M6i-rS-l7X"/>
+                        <outlet property="butt17" destination="hoN-tp-byz" id="EBQ-Ha-xYL"/>
+                        <outlet property="butt18" destination="3EV-Xe-Rt2" id="NzD-FL-WsO"/>
+                        <outlet property="butt19" destination="w1W-TO-7Op" id="Elf-6x-uNa"/>
+                        <outlet property="butt20" destination="K8r-ZG-ibv" id="EJq-BB-zwL"/>
+                        <outlet property="butt21" destination="tkp-sI-y1M" id="F61-yv-U3l"/>
+                        <outlet property="butt22" destination="tUs-Dn-zn5" id="xrx-kp-ap3"/>
+                        <outlet property="butt23" destination="mry-xt-P9F" id="59l-YF-DZb"/>
+                        <outlet property="butt24" destination="vrb-PO-0d7" id="gRT-K6-bOA"/>
+                        <outlet property="butt25" destination="7Xk-2D-1F6" id="TFp-3c-VoL"/>
+                        <outlet property="buttEig" destination="Fx8-dj-j88" id="Rk3-VL-v82"/>
+                        <outlet property="buttEle" destination="phZ-R7-qUl" id="Wgb-Pk-cBJ"/>
+                        <outlet property="buttFive" destination="dHg-Ym-4bs" id="yxv-Lm-fwA"/>
+                        <outlet property="buttFour" destination="LOa-MO-Aae" id="NCf-jp-jmC"/>
+                        <outlet property="buttNin" destination="91n-bk-a6S" id="sGh-HW-ApR"/>
                         <outlet property="buttOne" destination="GEI-6x-Pnc" id="d2d-Yz-DyW"/>
+                        <outlet property="buttSev" destination="1Pf-4e-zUy" id="o8G-5L-ZGn"/>
+                        <outlet property="buttSix" destination="jET-WS-hxY" id="hW6-Vt-TPN"/>
+                        <outlet property="buttTen" destination="obe-V3-8a5" id="wbE-p9-v5t"/>
+                        <outlet property="buttThre" destination="gLd-Sa-bQ5" id="ul7-bA-woI"/>
+                        <outlet property="buttTwe" destination="wt1-qG-3E7" id="cUk-HJ-8UT"/>
+                        <outlet property="buttTwo" destination="5Y8-yg-KJX" id="55I-M6-FkH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E4q-FL-2fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
