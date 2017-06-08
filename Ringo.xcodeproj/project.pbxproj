@@ -103,8 +103,8 @@
 			children = (
 				4B9526E81EE2268B0010B32D /* AppDelegate.swift */,
 				4B9526EA1EE2268B0010B32D /* ViewController.swift */,
-				4B9526EC1EE2268B0010B32D /* Main.storyboard */,
 				4B95271A1EE29A3A0010B32D /* BoardViewController.swift */,
+				4B9526EC1EE2268B0010B32D /* Main.storyboard */,
 				4B9526EF1EE2268B0010B32D /* Assets.xcassets */,
 				4B9526F11EE2268B0010B32D /* LaunchScreen.storyboard */,
 				4B9527161EE297CF0010B32D /* Vacuum.png */,
@@ -517,6 +517,7 @@
 				4B95270F1EE2268B0010B32D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B9527101EE2268B0010B32D /* Build configuration list for PBXNativeTarget "RingoTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +526,7 @@
 				4B9527121EE2268B0010B32D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B9527131EE2268B0010B32D /* Build configuration list for PBXNativeTarget "RingoUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +535,7 @@
 				4B9527151EE2268B0010B32D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

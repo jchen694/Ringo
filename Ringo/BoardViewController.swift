@@ -9,10 +9,18 @@
 import UIKit
 
 class BoardViewController: UIViewController {
+    
+    var one = ""
+    var two = ""
 
+    @IBOutlet weak var buttOne: UIButton!
+    @IBOutlet weak var buttTwo: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        buttOne.setTitle(one, for: .normal)
         // Do any additional setup after loading the view.
     }
 
