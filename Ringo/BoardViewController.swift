@@ -40,6 +40,7 @@ class BoardViewController: UIViewController {
     @IBOutlet weak var butt24: UIButton!
     @IBOutlet weak var butt25: UIButton!
     
+    @IBOutlet var buttons: [UIButton]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +71,9 @@ class BoardViewController: UIViewController {
         butt24.setTitle(twentyfour, for: .normal)
         butt25.setTitle(twentyfive, for: .normal)
         
+        for but in buttons {
+            but.tag = 0
+        }
         
         print(contentList)
         // Do any additional setup after loading the view.
@@ -79,16 +83,14 @@ class BoardViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    var clicked = true
-    
+        
     @IBAction func perform(_ sender: UIButton) {
-        if clicked {
+        if sender.tag == 0 {
             sender.setBackgroundImage(#imageLiteral(resourceName: "TrueVacuum.JPG"), for: .normal)
-            clicked = false
+            sender.tag = 1
         } else {
             sender.setBackgroundImage(#imageLiteral(resourceName: "FalseVacuum.PNG"), for: .normal)
-            clicked = true
+            sender.tag = 0
         }
         
     }

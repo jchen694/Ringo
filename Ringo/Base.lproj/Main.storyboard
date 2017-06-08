@@ -291,144 +291,216 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="Qd2-CM-Rum"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-Sa-bQ5">
                                 <rect key="frame" x="160" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="pFA-QG-MR0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LOa-MO-Aae">
                                 <rect key="frame" x="232" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="N6Q-Rg-bHj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dHg-Ym-4bs">
                                 <rect key="frame" x="305" y="140" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="uX7-Wv-aYK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jET-WS-hxY" userLabel="Butt Six">
                                 <rect key="frame" x="16" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="Eua-nR-c2S"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Pf-4e-zUy">
                                 <rect key="frame" x="87" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="1zw-xV-1kD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-dj-j88">
                                 <rect key="frame" x="160" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="RFv-eR-bEl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="91n-bk-a6S">
                                 <rect key="frame" x="232" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="Voo-Tp-gLI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="obe-V3-8a5">
                                 <rect key="frame" x="305" y="243" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="1vv-lO-11D"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="phZ-R7-qUl">
                                 <rect key="frame" x="16" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="primaryActionTriggered" id="yAs-r2-uMW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wt1-qG-3E7">
                                 <rect key="frame" x="87" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="39M-Sz-iFS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Rq6-2P-yXd">
                                 <rect key="frame" x="160" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="UIp-6n-TYy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ooV-XT-n7d">
                                 <rect key="frame" x="232" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="nZC-0v-bCR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fsP-Uh-Sd9">
                                 <rect key="frame" x="305" y="346" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="YkG-bO-2G6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="IVZ-pE-g2J">
                                 <rect key="frame" x="16" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="CKX-rx-Wem"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-tp-byz">
                                 <rect key="frame" x="87" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="M4M-jn-Mob"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3EV-Xe-Rt2">
                                 <rect key="frame" x="160" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="QRf-R8-pPD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-TO-7Op">
                                 <rect key="frame" x="232" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="9v6-rt-e3Z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="K8r-ZG-ibv">
                                 <rect key="frame" x="305" y="449" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="ysa-jg-ieH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tkp-sI-y1M">
                                 <rect key="frame" x="16" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="39r-wM-46U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tUs-Dn-zn5">
                                 <rect key="frame" x="87" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="N5h-lN-ewS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mry-xt-P9F">
                                 <rect key="frame" x="160" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="2MJ-HL-yjw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vrb-PO-0d7">
                                 <rect key="frame" x="232" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="Ag3-sA-bBQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Xk-2D-1F6">
                                 <rect key="frame" x="305" y="552" width="54" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Button" backgroundImage="FalseVacuum.PNG"/>
+                                <connections>
+                                    <action selector="perform:" destination="xAx-0d-OD7" eventType="touchUpInside" id="IH2-Rb-cOR"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="RINGO!" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XC8-6p-hq4">
                                 <rect key="frame" x="92" y="39" width="191" height="64"/>
@@ -467,6 +539,7 @@
                         <outlet property="buttThre" destination="gLd-Sa-bQ5" id="ul7-bA-woI"/>
                         <outlet property="buttTwe" destination="wt1-qG-3E7" id="cUk-HJ-8UT"/>
                         <outlet property="buttTwo" destination="5Y8-yg-KJX" id="55I-M6-FkH"/>
+                        <outletCollection property="buttons" destination="jET-WS-hxY" collectionClass="NSMutableArray" id="npi-w8-Cah"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E4q-FL-2fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
