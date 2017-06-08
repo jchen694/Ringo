@@ -14,13 +14,13 @@ class BoardViewController: UIViewController {
     var two = ""
 
     @IBOutlet weak var buttOne: UIButton!
-    @IBOutlet weak var buttTwo: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         buttOne.setTitle(one, for: .normal)
+        buttOne.setImage(<#T##image: UIImage?##UIImage?#>, for: <#T##UIControlState#>)
         // Do any additional setup after loading the view.
     }
 
