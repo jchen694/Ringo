@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B6098CA1EEB275800367113 /* Vacuum.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B6098C91EEB275800367113 /* Vacuum.png */; };
 		4B89FC621EE9F23400147D3F /* TrueVacuum.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4B89FC611EE9F23400147D3F /* TrueVacuum.JPG */; };
 		4B89FC641EE9F24100147D3F /* FalseVacuum.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4B89FC631EE9F24100147D3F /* FalseVacuum.PNG */; };
 		4B9526E91EE2268B0010B32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9526E81EE2268B0010B32D /* AppDelegate.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B6098C91EEB275800367113 /* Vacuum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vacuum.png; sourceTree = "<group>"; };
 		4B89FC611EE9F23400147D3F /* TrueVacuum.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TrueVacuum.JPG; sourceTree = "<group>"; };
 		4B89FC631EE9F24100147D3F /* FalseVacuum.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FalseVacuum.PNG; sourceTree = "<group>"; };
 		4B9526E51EE2268B0010B32D /* Ringo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ringo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +109,6 @@
 				4B9526EC1EE2268B0010B32D /* Main.storyboard */,
 				4B9526EF1EE2268B0010B32D /* Assets.xcassets */,
 				4B9526F11EE2268B0010B32D /* LaunchScreen.storyboard */,
-				4B6098C91EEB275800367113 /* Vacuum.png */,
 				4B89FC611EE9F23400147D3F /* TrueVacuum.JPG */,
 				4B89FC631EE9F24100147D3F /* FalseVacuum.PNG */,
 				4B9526F41EE2268B0010B32D /* Info.plist */,
@@ -248,7 +245,6 @@
 				4B89FC621EE9F23400147D3F /* TrueVacuum.JPG in Resources */,
 				4B89FC641EE9F24100147D3F /* FalseVacuum.PNG in Resources */,
 				4B9526F01EE2268B0010B32D /* Assets.xcassets in Resources */,
-				4B6098CA1EEB275800367113 /* Vacuum.png in Resources */,
 				4B9526EE1EE2268B0010B32D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
