@@ -17,6 +17,7 @@
 		4B9526FE1EE2268B0010B32D /* RingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9526FD1EE2268B0010B32D /* RingoTests.swift */; };
 		4B9527091EE2268B0010B32D /* RingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9527081EE2268B0010B32D /* RingoUITests.swift */; };
 		4B95271B1EE29A3A0010B32D /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95271A1EE29A3A0010B32D /* BoardViewController.swift */; };
+		4BA661581EEB32440092362D /* Vacuum.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA661571EEB32440092362D /* Vacuum.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4B9527081EE2268B0010B32D /* RingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingoUITests.swift; sourceTree = "<group>"; };
 		4B95270A1EE2268B0010B32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B95271A1EE29A3A0010B32D /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BoardViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4BA661571EEB32440092362D /* Vacuum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vacuum.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4B9526EC1EE2268B0010B32D /* Main.storyboard */,
 				4B9526EF1EE2268B0010B32D /* Assets.xcassets */,
 				4B9526F11EE2268B0010B32D /* LaunchScreen.storyboard */,
+				4BA661571EEB32440092362D /* Vacuum.png */,
 				4B89FC611EE9F23400147D3F /* TrueVacuum.JPG */,
 				4B89FC631EE9F24100147D3F /* FalseVacuum.PNG */,
 				4B9526F41EE2268B0010B32D /* Info.plist */,
@@ -245,6 +248,7 @@
 				4B89FC621EE9F23400147D3F /* TrueVacuum.JPG in Resources */,
 				4B89FC641EE9F24100147D3F /* FalseVacuum.PNG in Resources */,
 				4B9526F01EE2268B0010B32D /* Assets.xcassets in Resources */,
+				4BA661581EEB32440092362D /* Vacuum.png in Resources */,
 				4B9526EE1EE2268B0010B32D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
